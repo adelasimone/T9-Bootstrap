@@ -1,17 +1,25 @@
-.bg-roxo{
-    background-color: rgb(76, 144, 156);;
+.bg-roxo {
+    background-color: rgb(76, 144, 156);
 }
 
-a:hover{
-  font-weight: bold;
+a:hover {
+    font-weight: bold;
 }
 
 .img-carrossel {
-   object-fit: cover;/*fill */
-  height: 65vh;
-  object-position: 0 50%;
-
-  /* object-fit: cover;
+    object-fit: cover;
+    /*fill */
+    height: 65vh;
+    object-position: 0 50%;
+    /* object-fit: cover;
   width: 100%;
   height: 65vh; */
+}
+
+.link-sobre{
+    color:  rgb(76, 144, 156);
+}
+
+.link-sobre:hover {
+    color: rgb(76, 144, 156);
 }
