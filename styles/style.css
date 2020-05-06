@@ -2,6 +2,10 @@
     background-color: rgb(76, 144, 156);
 }
 
+.font-azul{
+    color: rgb(76, 144, 156);
+}
+
 a:hover {
     font-weight: bold;
 }
