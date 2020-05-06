@@ -1,3 +1,5 @@
+<!-- Mobile-first -->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -10,7 +12,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-roxo">
+    <nav class="navbar navbar-expand-lg navbar-light bg-azul">
         <div class="container">
             <a class="navbar-brand text-white" href="https://reprograma.com.br/" target="_blank">{Reprograma}</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menudesktop"
@@ -42,6 +44,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
+                <!-- arrumar img para centralizar no mobile -->
                 <div class="carousel-item active">
                     <img class="d-block w-100 img-carrossel" src="assets/wave-1.jpg" alt="Primeiro Slide">
                 </div>
@@ -88,6 +91,73 @@
                 <i class="fa-2x far fa-envelope"></i>
                 <span>endereço do e-mail</span>
             </a>
+        </div>
+    </section>
+
+    <section class="bg-azul d-flex flex-column flex-lg-row justify-content-lg-around text-white text-center">
+
+        <div class="habilidades w-100">
+            <h4 class="m-3">Habilidades</h4>
+
+            <div class="icones p-4"><!--vó-->
+                <div class="row"><!--mãe-->
+                    <div class="col"><!--filha-->
+                        <i class=" fa-2x fab fa-html5"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="col"><!--filha-->
+                        <i class=" fa-2x fab fa-css3-alt"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="col"><!--filha-->
+                        <i class=" fa-2x fab fa-js-square"></i>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+
+                <div class="row"><!--mãe-->
+                    <div class="col"><!--filha-->
+                        <i class=" fa-2x fab fa-bootstrap"></i>
+                        <p>Bootstrap</p>
+                    </div>
+                    <div class="col"><!--filha-->
+                        <i class=" fa-2x fab fa-git-alt"></i>
+                        <p>Git</p>
+                    </div>
+                    <div class="col"><!--filha-->
+                        <i class=" fa-2x fab fa-react"></i>
+                        <p>React</p>
+                    </div>
+                </div>
+
+                <div class="row"> <!--mãe-->
+                    <div class="col"><!--filha-->
+                        <i class=" fa-2x fas fa-tasks"></i>
+                        <p>Scrum</p>
+                    </div>
+                    <div class="col"><!--filha-->
+                        <i class=" fa-2x fab fa-sass"></i>
+                        <p>Sass</p>
+                    </div>
+                    <div class="col"><!--filha-->
+                        <i class=" fa-2x fas fa-book"></i>
+                        <p>JQuery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sobre w-100">
+            <h4 class="m-4">Sobre</h4>
+            <div class="container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis omnis natus commodi
+                    repudiandae
+                    expedita autem, perspiciatis vero voluptas itaque voluptate ab earum tenetur maiores consectetur
+                    assumenda, sint architecto id quia?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, quia! Earum totam nam autem
+                    reprehenderit, possimus molestias, facilis id odit eveniet quo corrupti praesentium, deserunt
+                    nulla
+                    voluptas! Exercitationem, sunt sint.</p>
+            </div>
         </div>
     </section>
     <script src="./js/jquery-3.4.1.min.js"></script>
