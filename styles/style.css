@@ -1,7 +1,38 @@
-.bg-roxo{
-    background-color: #7E459B;
+.bg-azul {
+    background-color: rgb(76, 144, 156);
 }
 
-a:hover{
-  font-weight: bold;
+.font-azul{
+    color: rgb(76, 144, 156);
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.img-carrossel {
+    object-fit: cover;
+    /*fill */
+    height: 65vh;
+    object-position: 0 50%;
+    /* object-fit: cover;
+  width: 100%;
+  height: 65vh; */
+}
+
+.link-sobre{
+    color:  rgb(76, 144, 156);
+}
+
+.link-sobre:hover {
+    color: rgb(76, 144, 156);
+}
+
+button {
+    width: 100px;
+}
+
+.button:hover{
+    /* color: cadetblue; */
+    opacity: .9;
 }
