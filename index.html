@@ -24,13 +24,13 @@
             <div class="collapse navbar-collapse  justify-content-end" id="menudesktop">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Habilidades</a>
+                        <a class="nav-link text-white" href="#habilidades">Habilidades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Sobre</a>
+                        <a class="nav-link text-white" href="#contato">Contato</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Portifólios</a>
+                        <a class="nav-link text-white" href="#portfolios">Portifólios</a>
                     </li>
                 </ul>
             </div>
@@ -69,7 +69,7 @@
     </header>
 
     <!-- CONTATOS -->
-    <section class="text-center m-4">
+    <section class="text-center m-4" id="contato">
         <div>
             <h3 class="font-azul font-weight-bold">Adela Simone</h3>
             <h5 class="font-italic font-weight-light pb-3 m-2 font-azul">Desenvolvedora front-end</h5>
@@ -91,8 +91,8 @@
         </div>
     </section>
 
-    <!-- SOBRE -->
-    <section class="bg-azul text-white text-center d-flex flex-column flex-lg-row justify-content-lg-around p-4">
+    <!-- HABILIDADES -->
+    <section class="bg-azul text-white text-center d-flex flex-column flex-lg-row justify-content-lg-around p-4" id="habilidades">
 
         <div class="habilidades w-100">
             <h4 class="pt-3">Habilidades</h4>
@@ -159,10 +159,10 @@
         </div>
     </section>
 
-    <!-- MODAL -->
-    <section class="diva-mae__card text-center ">
+    <!-- MODAL - PORTFÓLIOS-->
+    <section class="diva-mae__card text-center pt-3" id="portfolios">
         <h3>Portfólio</h3>
-        <section class="d-flex row justify-content-around modal-cards m-3">
+        <section class="row justify-content-around modal-cards m-3">
             <!-- CARD 1 -->
             <div class="card text-center m-5" style="width: 18rem;">
                 <img src="assets/wave-4.jpg" class="card-img-top" alt="Imagem projeto 1">
@@ -295,6 +295,10 @@
             </div>
         </section>
     </section>
+
+    <footer class="bg-azul text-center text-white">
+        <p>Desenvolvido com Bootstrap por Adela Simone, aluna da {<span class="font-weight-bold">re</span>programa} 2020</p>
+    </footer>
 
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
