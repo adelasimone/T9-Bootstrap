@@ -28,3 +28,11 @@ a:hover {
     color: rgb(76, 144, 156);
 }
 
+button {
+    width: 100px;
+}
+
+.button:hover{
+    /* color: cadetblue; */
+    opacity: .9;
+}
